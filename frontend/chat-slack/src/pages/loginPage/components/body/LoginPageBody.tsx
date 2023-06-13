@@ -1,5 +1,5 @@
 import classes from './loginPage.module.css';
-import imgContent from '..//..//..//../public/logoChat.png'
+import imgContent from '../../../../image/logoChat.png'
 import { Link } from 'react-router-dom';
 
 
