@@ -1,8 +1,9 @@
 import classes from './loginPage.module.css';
-import imgContent from './logos/logoChat.png'
+import imgContent from '..//..//..//../public/logoChat.png'
+import { Link } from 'react-router-dom';
 
 
-export const LoginPage = () => {
+export const LoginBody = () => {
   return (
     <div className={classes.container} >
       <div className={classes.main}>
@@ -17,7 +18,8 @@ export const LoginPage = () => {
         </div>
         <div className={classes.footer}> 
           <div>Нет аккаунта?</div>
-          <a className={classes.url} href="/">Регистрация</a>
+          <Link className={classes.url} to="/">Регистрация</Link>
+          
         </div>
       </div>
     </div>
