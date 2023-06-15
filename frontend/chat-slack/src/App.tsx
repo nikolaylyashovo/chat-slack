@@ -8,7 +8,8 @@ import './App.css';
 import { ErrorPage } from './pages/errorPage/ErrorPage';
 import { LoginPage } from './pages/loginPage/LoginPage';
 
- export function App() {
+
+export function App() {
   return (
   <BrowserRouter>
     <Router>
